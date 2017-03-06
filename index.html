@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Do They Like Me?</title>
+	<link rel="stylesheet" href="styles/styles.css">
+  	<link href="https://fonts.googleapis.com/css?family=Barrio|Montserrat:400,500" rel="stylesheet">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ 	<!-- Background pattern from http://www.zingerbug.com/background.php?MyFile=light_pink_scribble_hearts_on_white.php -->
+</head>
+<body>
+
+ 	<div class="fullbleedWrapper"> 
+
+ 		<header>
+
+	        <img class="brokenHeart" src="assets/brokenHeart.png" alt="pink broken heart">
+
+	        <h1>They like me? <span class="title__span">They like me not?</span></h1>
+
+	        <img class="fullHeart" src="assets/fullHeart.png" alt="red full heart">
+
+  		</header>
+
+		<img class="heartBanner heartBanner1" src="assets/banner.png" alt="full heart and broken heart banner">
+
+		<img class="heartBanner heartBanner2" src="assets/banner.png" alt="full heart and broken heart banner">
+
+		<div class="instructions">
+    
+		<p>Dating… so fun and exciting. The possibilities are endless! But also scary. And confusing. Right? This quiz will help you clear up some of the confusion. Answer the questions below to help determine if the person you are interested in likes you back. Think of it as your brutally honest best friend.</p>
+
+	</div>
+
+    <div class="wrapper">
+
+    	<form action="">
+
+            <fieldset class="question question__texting">
+
+                <p><span class="question__numbers">1.</span> How long do they take to text you back?</p>
+
+                <div class="questions__options">
+
+                    <div class="row">
+                    	<input type="radio" name="texting" id="texting--yes" value="3">
+                    	<label for="texting--yes">Within the hour</label>
+                    </div>
+
+                    <div class="row">
+                    	<input type="radio" name="texting" id="texting--maybe" value="2">
+                    	<label for="texting--maybe">Within the day</label>
+                    </div>
+
+                    <div class="row">
+                    	<input type="radio" name="texting" id="texting--no" value="1">
+                    	<label for="texting--no">Within the week</label>
+                    </div>
+
+                </div>
+
+            </fieldset>    
+
+            <fieldset class="question question__effort">
+
+                <p><span class="question__numbers">2.</span> Do they make an effort to get to know you (i.e. meet your friends and family, ask questions about you, compromise on date ideas?)</p>
+
+                <div class="questions__options">
+
+                    <div class="row">
+                    	<input type="radio" name="effort" id="effort--no" value="1">
+                    	<label for="effort--no">No</label>
+                    </div>
+                    
+                    <div class="row">  
+                    	<input type="radio" name="effort" id="effort--yes" value="3">
+                    	<label for="effort--yes">Yes</label>
+                    </div>  
+
+                    <div class="row">
+                    	<input type="radio" name="effort" id="effort--maybe" value="2">
+                    	<label for="effort--maybe">Sometimes</label>
+                    </div>  
+
+                </div>
+
+            </fieldset>
+
+            <fieldset class="question question__onlineDating">
+
+                <p><span class="question__numbers">3.</span> Are they still active on online dating sites?</p>
+
+                <div class="questions__options">
+
+                    <div class="row">
+                    	<input type="radio" name="onlineDating" id="onlineDating--maybe" value="2">
+                    	<label for="onlineDating--maybe">Not Sure</label>
+                    </div>
+
+                    <div class="row">
+                    	<input type="radio" name="onlineDating" id="onlineDating--yes" value="3">
+                    	<label for="onlineDating--yes">No</label>
+                    </div>
+
+                    <div class="row">
+                    	<input type="radio" name="onlineDating" id="onlineDating--no" value="1">
+                    	<label for="onlineDating--no">Yes</label>
+                    </div>
+
+                </div>
+
+            </fieldset>   
+
+            <fieldset class="question question__firstDate">
+				
+                <p><span class="question__numbers">4.</span> What did you do for your first date?</p>
+
+                <div class="questions__options">
+
+                    <div class="row">
+                    	<input type="radio" name="firstDate" id="firstDate--no" value="1">
+                        <label for="firstDate--no">Netfilx and Chill</label>
+                    </div>
+
+                    <div class="row">
+                        <input type="radio" name="firstDate" id="firstDate--yes" value="3">
+                        <label for="firstDate--yes">Shared a meal/did an activity</label>
+                    </div>
+
+                    <div class="row">
+                        <input type="radio" name="firstDate" id="firstDate--maybe" value="2">
+                        <label for="firstDate--maybe">Met for drinks</label>
+                    </div>
+
+                </div>
+
+            </fieldset> 
+
+            <fieldset class="question question__futurePlans">
+
+                <p><span class="question__numbers">5.</span> Have plans for another date come up?</p>
+
+                <div class="questions__options">
+                    
+                    <div class="row">
+                        <input type="radio" name="futurePlans" id="futurePlans--no" value="1">
+                        <label for="futurePlans--no">No, it hasn't come up</label>
+                    </div>
+
+                    <div class="row">
+                        <input type="radio" name="futurePlans" id="futurePlans--yes" value="3">
+                        <label for="futurePlans--yes">Yes, our next date is scheduled</label>
+                    </div>
+
+                    <div class="row">
+                        <input type="radio" name="futurePlans" id="futurePlans--maybe" value="2">
+                        <label for="futurePlans--maybe">They said they would call me</label>
+                    </div>
+
+                </div>
+
+            </fieldset> 
+
+            <div class="submit-container">
+                <input type="submit" value="Do they like me?">
+            </div>
+
+        </form>
+
+        <section class="results"></section>
+
+    </div> 
+
+	</div> 
+
+    <footer>
+
+     	<div class="fullbleedWrapper footerStyle"> 
+
+			<p>&copy; Julie White & Laura Kolstein 2017</p>
+
+			<a class="icon-twitter" rel="nofollow" href="http://twitter.com/" onclick="popUp=window.open('http://twitter.com/intent/tweet?text=\Wonder if the person you like likes you back? Check out this app: http://laurakolstein.com/dotheylikeme','popupwindow','scrollbars=yes,width=800,height=400'); popUp.focus();return false"><i class="fa fa-twitter"></i></a>
+
+			<p>Pattern by: <a href="http://www.zingerbug.com/background.php?MyFile=light_pink_scribble_hearts_on_white.php" target="_blank">zingerbug.com</a></p>
+  		
+  		</div>
+
+	</footer>      
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+		
+	<script src="script.js"></script>	
+	
+</body>
+</html>
